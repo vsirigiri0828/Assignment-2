@@ -1,4 +1,3 @@
-# Assignment-2
 MLOps Homework 2 - Email Classification
 
 
@@ -62,16 +61,18 @@ $ curl -X POST http://127.0.0.1:3000/api/v1/classify/ -H "Content-Type: applicat
 
 ({"classifications":[{"class":"Sports","similarity":0.33779534697532654},{"class":"Food","similarity":0.15516254305839539},{"class":"Work","similarity":0.1520056426525116},{"class":"Family","similarity":0.1493988037109375},{"class":"Entertainment","similarity":0.10950297117233276},{"class":"Finance","similarity":0.10245766490697861},{"class":"Politics","similarity":0.10082963109016418},{"class":"Health","similarity":0.09934098273515701},{"class":"Travel","similarity":0.09581462293863297},{"class":"Shopping","similarity":0.07858021557331085},{"class":"Education","similarity":0.07420410960912704},{"class":"Technology","similarity":0.026121918112039566}],"message":"Email classified"})
 
+The system automatically identifies the classes ("Sports" has more value) based on the text
+
 
 Email Text: "I just got a promotion at work!"
 
  
 
-
+The classification automatically detects "Work" has more value based on the job promotion text.
 Email Text: "I just booked a flight for my vacation!"
 
  
-
+The system detects "Travel" as the highest similarity due to the reference to vacation and flight booking.
 
 
 Github Link: https://github.com/vsirigiri0828/Assignment-2
